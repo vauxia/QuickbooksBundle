@@ -1,0 +1,26 @@
+{
+    "name": "mopa/QuickbooksBundle",
+    "description": "An experimental Symfony2 bundle to interact with Quickbooks using the Intuit PHP Toolkit",
+    "autoload": {
+        "classmap": [ "vendor/intuit/php_devkit/QuickBooks/" ]
+    },
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/symfony": "2.1.x-dev",
+        "intuit/php_devkit": "trunk"
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "version": "master",
+                "name": "intuit/php_devkit",
+                "source": {
+                    "url": "https://code.intuit.com/svn/repos/php_devkit",
+                    "type": "svn",
+                    "reference": "trunk"
+                }
+            }
+        }
+    ]
+}
