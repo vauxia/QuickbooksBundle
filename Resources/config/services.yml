@@ -1,0 +1,7 @@
+parameters:
+#    advantage_labs_quickbooks.example.class: AdvantageLabs\QuickbooksBundle\Example
+
+services:
+#    advantage_labs_quickbooks.example:
+#        class: %advantage_labs_quickbooks.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

@@ -1,0 +1,7 @@
+AdvantageLabsQuickbooksBundle_homepage:
+    pattern:  /qb/qbwc
+    defaults: { _controller: AdvantageLabsQuickbooksBundle:Default:qbwc }
+
+AdvantageLabsQuickbooksBundle_server:
+    pattern:  /qb/server
+    defaults: { _controller: AdvantageLabsQuickbooksBundle:Default:server }
